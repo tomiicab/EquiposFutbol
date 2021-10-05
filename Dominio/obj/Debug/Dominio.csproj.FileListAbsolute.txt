@@ -1,0 +1,9 @@
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\bin\Debug\Dominio.dll
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\bin\Debug\Dominio.pdb
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\bin\Debug\Acceso a Datos.dll
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\bin\Debug\Acceso a Datos.pdb
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.dll
+C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.pdb

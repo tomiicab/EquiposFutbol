@@ -1,0 +1,13 @@
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\bin\Debug\Dominio.dll
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\bin\Debug\Dominio.pdb
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.Principal.resources
