@@ -4,3 +4,12 @@ C:\Users\perey\source\repos\EquipoFutbol\Acceso a Datos\obj\Debug\Acceso a Datos
 C:\Users\perey\source\repos\EquipoFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.csproj.CoreCompileInputs.cache
 C:\Users\perey\source\repos\EquipoFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.dll
 C:\Users\perey\source\repos\EquipoFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\bin\Debug\Acceso a Datos.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\bin\Debug\Acceso a Datos.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\bin\Debug\Dominio.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\bin\Debug\Dominio.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.csproj.AssemblyReference.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.csproj.CoreCompileInputs.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.csproj.CopyComplete
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Acceso a Datos\obj\Debug\Acceso a Datos.pdb

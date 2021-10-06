@@ -7,3 +7,9 @@ C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.csproj.CoreCo
 C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.csproj.CopyComplete
 C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.dll
 C:\Users\perey\source\repos\EquipoFutbol\Dominio\obj\Debug\Dominio.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\bin\Debug\Dominio.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\bin\Debug\Dominio.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.pdb

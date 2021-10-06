@@ -36,12 +36,12 @@ namespace Presentacion
             this.lblFechaNaac = new System.Windows.Forms.Label();
             this.lblPosicion = new System.Windows.Forms.Label();
             this.lblEquipo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtBoxNombreJugador = new System.Windows.Forms.TextBox();
+            this.txtDni = new System.Windows.Forms.TextBox();
+            this.txtNumeroCamiseta = new System.Windows.Forms.TextBox();
+            this.cboNumPosicion = new System.Windows.Forms.ComboBox();
+            this.cboEquipo = new System.Windows.Forms.ComboBox();
+            this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
             this.gbDatosJugadores = new System.Windows.Forms.GroupBox();
             this.gbDatosJugadores.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,7 @@ namespace Presentacion
             this.btnGuardar.TabIndex = 0;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // label1
             // 
@@ -109,64 +110,64 @@ namespace Presentacion
             this.lblEquipo.TabIndex = 6;
             this.lblEquipo.Text = "Equipo";
             // 
-            // textBox1
+            // txtBoxNombreJugador
             // 
-            this.textBox1.Location = new System.Drawing.Point(123, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtBoxNombreJugador.Location = new System.Drawing.Point(123, 35);
+            this.txtBoxNombreJugador.Name = "txtBoxNombreJugador";
+            this.txtBoxNombreJugador.Size = new System.Drawing.Size(225, 20);
+            this.txtBoxNombreJugador.TabIndex = 7;
             // 
-            // textBox2
+            // txtDni
             // 
-            this.textBox2.Location = new System.Drawing.Point(123, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(225, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtDni.Location = new System.Drawing.Point(123, 65);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(225, 20);
+            this.txtDni.TabIndex = 8;
             // 
-            // textBox3
+            // txtNumeroCamiseta
             // 
-            this.textBox3.Location = new System.Drawing.Point(123, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(225, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtNumeroCamiseta.Location = new System.Drawing.Point(123, 128);
+            this.txtNumeroCamiseta.Name = "txtNumeroCamiseta";
+            this.txtNumeroCamiseta.Size = new System.Drawing.Size(225, 20);
+            this.txtNumeroCamiseta.TabIndex = 9;
             // 
-            // comboBox1
+            // cboNumPosicion
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(123, 160);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(225, 21);
-            this.comboBox1.TabIndex = 10;
+            this.cboNumPosicion.FormattingEnabled = true;
+            this.cboNumPosicion.Location = new System.Drawing.Point(123, 160);
+            this.cboNumPosicion.Name = "cboNumPosicion";
+            this.cboNumPosicion.Size = new System.Drawing.Size(225, 21);
+            this.cboNumPosicion.TabIndex = 10;
             // 
-            // comboBox2
+            // cboEquipo
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(123, 197);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(225, 21);
-            this.comboBox2.TabIndex = 11;
+            this.cboEquipo.FormattingEnabled = true;
+            this.cboEquipo.Location = new System.Drawing.Point(123, 197);
+            this.cboEquipo.Name = "cboEquipo";
+            this.cboEquipo.Size = new System.Drawing.Size(225, 21);
+            this.cboEquipo.TabIndex = 11;
             // 
-            // dateTimePicker1
+            // dtpFechaNac
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(123, 101);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(225, 20);
-            this.dateTimePicker1.TabIndex = 12;
+            this.dtpFechaNac.Location = new System.Drawing.Point(123, 101);
+            this.dtpFechaNac.Name = "dtpFechaNac";
+            this.dtpFechaNac.Size = new System.Drawing.Size(225, 20);
+            this.dtpFechaNac.TabIndex = 12;
             // 
             // gbDatosJugadores
             // 
             this.gbDatosJugadores.Controls.Add(this.lblEquipo);
-            this.gbDatosJugadores.Controls.Add(this.dateTimePicker1);
+            this.gbDatosJugadores.Controls.Add(this.dtpFechaNac);
             this.gbDatosJugadores.Controls.Add(this.label1);
-            this.gbDatosJugadores.Controls.Add(this.comboBox2);
+            this.gbDatosJugadores.Controls.Add(this.cboEquipo);
             this.gbDatosJugadores.Controls.Add(this.lblNombreCom);
-            this.gbDatosJugadores.Controls.Add(this.comboBox1);
+            this.gbDatosJugadores.Controls.Add(this.cboNumPosicion);
             this.gbDatosJugadores.Controls.Add(this.lblDni);
-            this.gbDatosJugadores.Controls.Add(this.textBox3);
+            this.gbDatosJugadores.Controls.Add(this.txtNumeroCamiseta);
             this.gbDatosJugadores.Controls.Add(this.lblFechaNaac);
-            this.gbDatosJugadores.Controls.Add(this.textBox2);
+            this.gbDatosJugadores.Controls.Add(this.txtDni);
             this.gbDatosJugadores.Controls.Add(this.lblPosicion);
-            this.gbDatosJugadores.Controls.Add(this.textBox1);
+            this.gbDatosJugadores.Controls.Add(this.txtBoxNombreJugador);
             this.gbDatosJugadores.Location = new System.Drawing.Point(12, 12);
             this.gbDatosJugadores.Name = "gbDatosJugadores";
             this.gbDatosJugadores.Size = new System.Drawing.Size(373, 241);
@@ -198,12 +199,12 @@ namespace Presentacion
         private System.Windows.Forms.Label lblFechaNaac;
         private System.Windows.Forms.Label lblPosicion;
         private System.Windows.Forms.Label lblEquipo;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtBoxNombreJugador;
+        private System.Windows.Forms.TextBox txtDni;
+        private System.Windows.Forms.TextBox txtNumeroCamiseta;
+        private System.Windows.Forms.ComboBox cboNumPosicion;
+        private System.Windows.Forms.ComboBox cboEquipo;
+        private System.Windows.Forms.DateTimePicker dtpFechaNac;
         private System.Windows.Forms.GroupBox gbDatosJugadores;
     }
 }

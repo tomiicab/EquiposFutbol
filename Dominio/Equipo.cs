@@ -8,8 +8,9 @@ namespace Dominio
 {
     public class Equipo
     {
-        private string nombreEquipo, directorTecnico;
-        public string NombreEquipo { get => nombreEquipo; set => nombreEquipo = value; }
+        private int nombreEquipo;
+        private string directorTecnico;
+        public int NombreEquipo { get => nombreEquipo; set => nombreEquipo = value; }
         public string DirectorTecnico { get => directorTecnico; set => directorTecnico = value; }
 
         //ACA DIGO, QUE UN EQUIPO SE FORMA DE UNO O VARIOS JUGADORES
@@ -17,7 +18,7 @@ namespace Dominio
 
         public List<Jugador> Jugadores { get; }
 
-        public Equipo(string nombE, string DT)
+        public Equipo(int nombE, string DT)
         {
             NombreEquipo = nombE;
             DirectorTecnico = DT;
@@ -28,12 +29,18 @@ namespace Dominio
         
         public Equipo()
         {
-            nombreEquipo = directorTecnico = "";
+            nombreEquipo = 0; 
+            directorTecnico = "";
         }
 
         public void AgregarJugador(Jugador jugador)
         {
             Jugadores.Add(jugador);
+        }
+
+        public void QuitarJugador(int nroJugador)
+        {
+            Jugadores.RemoveAt(nroJugador);
         }
     }
 }

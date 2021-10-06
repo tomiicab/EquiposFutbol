@@ -11,3 +11,19 @@ C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.csp
 C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\perey\source\repos\EquipoFutbol\Presentacion\obj\Debug\Presentacion.Principal.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\bin\Debug\Dominio.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\bin\Debug\Dominio.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.FrmAltaEquipo.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.FrmAltaJugador.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.FrmConsultarEquipos.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.Principal.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Presentacion\obj\Debug\Presentacion.pdb

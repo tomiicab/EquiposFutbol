@@ -8,6 +8,7 @@ namespace Dominio
 {
     public class Persona
     {
+
         private string nombreCompleto, dni;
         private DateTime fechaNac;
 
@@ -24,6 +25,7 @@ namespace Dominio
 
         public Persona()
         {
+
             nombreCompleto = dni = "";
             fechaNac = DateTime.Now;
         }
