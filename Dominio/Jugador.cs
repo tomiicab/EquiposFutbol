@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acceso_a_Datos;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -21,8 +22,7 @@ namespace Dominio
             Equipo = new Equipo();
             Posicion = new Posicion();
             Equipo.NombreEquipo = equipo;
-            Posicion = (Posicion)posicion;
-            
+            Posicion = (Posicion)posicion;            
             Dni = dni;
             NombreCompleto = nom;
             FechaNac = fecha;
@@ -34,34 +34,33 @@ namespace Dominio
             numCamiseta = 0;
         }
 
-        private int ProximoJugador()
-        {
-            int salida = 0;
-            SqlConnection cnn = new SqlConnection(@"Data Source=PC-TOMI\SQLEXPRESS;Initial Catalog=EquipoFutbol;Integrated Security=True");
+        //private int ProximoJugador()
+        //{
+        //    int salida = 0;
+        //    SqlConnection cnn = new SqlConnection(@"Data Source=PC-TOMI\SQLEXPRESS;Initial Catalog=EquipoFutbol;Integrated Security=True");
 
-            cnn.Open();
+        //    cnn.Open();
 
-            SqlCommand cmd = new SqlCommand("SP_PROXIMO_ID_PERSONA", cnn);
-            cmd.CommandType = CommandType.StoredProcedure;
-            SqlParameter parameter = new SqlParameter("@proximo", SqlDbType.Int);
-            parameter.Direction = ParameterDirection.Output;
-            cmd.Parameters.Add(parameter);
-            cmd.ExecuteNonQuery();
-            salida = Convert.ToInt32(parameter.Value);
-            cnn.Close();
-            return salida;
-        }
+        //    SqlCommand cmd = new SqlCommand("SP_PROXIMO_ID_PERSONA", cnn);
+        //    cmd.CommandType = CommandType.StoredProcedure;
+        //    SqlParameter parameter = new SqlParameter("@proximo", SqlDbType.Int);
+        //    parameter.Direction = ParameterDirection.Output;
+        //    cmd.Parameters.Add(parameter);
+        //    cmd.ExecuteNonQuery();
+        //    salida = Convert.ToInt32(parameter.Value);
+        //    cnn.Close();
+        //    return salida;
+        //}
 
         public bool ConfirmarJugador()
         {
             SqlTransaction transaccion = null;
-            int aux = ProximoJugador();
             bool resultado = true;
             SqlConnection cnn = null;
 
             try
             {
-                cnn = new SqlConnection(@"Data Source=PC-TOMI\SQLEXPRESS;Initial Catalog=EquipoFutbol;Integrated Security=True");
+                cnn = new SqlConnection(HelperDao.Connection());
                 
                 cnn.Open();
                 transaccion = cnn.BeginTransaction();
@@ -83,16 +82,16 @@ namespace Dominio
             }
             finally
             {
-                if (cnn != null && cnn.State == ConnectionState.Open)
-                {
-                    cnn.Close();
-                }
+                HelperDao.CloseConnection(cnn);
+                //if (cnn != null && cnn.State == ConnectionState.Open)
+                //{
+                //    cnn.Close();
+                //}
             }
 
             return resultado;
 
         }
-
 
     }
 }

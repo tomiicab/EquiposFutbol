@@ -1,4 +1,5 @@
-﻿using Dominio;
+﻿using Acceso_a_Datos;
+using Dominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,8 +15,7 @@ namespace Presentacion
 {
     public partial class FrmAltaJugador : Form
     {
-        
-        SqlConnection cnn = new SqlConnection(@"Data Source=PC-TOMI\SQLEXPRESS;Initial Catalog=EquipoFutbol;Integrated Security=True");
+        SqlConnection cnn = new SqlConnection(HelperDao.Connection());
         private SqlCommand cmd = null;
 
         public FrmAltaJugador()

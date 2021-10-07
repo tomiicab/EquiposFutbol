@@ -47,5 +47,11 @@
     <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso a Datos\Acceso a Datos.csproj">
+      <Project>{9ee9753a-3afa-4e94-95ae-74a9bf8a33c4}</Project>
+      <Name>Acceso a Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,3 +13,6 @@ C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.cspr
 C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.dll
 C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\bin\Debug\Acceso a Datos.dll
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\bin\Debug\Acceso a Datos.pdb
+C:\Users\perey\Documents\GIT CLONES\EquiposFutbol\Dominio\obj\Debug\Dominio.csproj.CopyComplete
